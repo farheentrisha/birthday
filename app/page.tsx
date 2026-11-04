@@ -40,7 +40,7 @@ export default function Home() {
         {screen === "gate" && (
           <section className="gate-screen screen-card">
             <div className="side-sticker"><Image src={cats.passcode} alt="A cute cat holding a secret" width={230} height={230} priority /></div>
-            <div className="gate-copy"><div className="eyebrow">✦ A VERY IMPORTANT QUEST ✦</div><h1>Ready to unlock<br />your daily dose of<br /><em>girlfriend chaos??</em></h1><p className="subcopy">Warning: may contain excessive affection<br />and one (1) birthday boy.</p>
+            <div className="gate-copy"><div className="eyebrow">✦ A VERY IMPORTANT QUEST ✦</div><h1>If you love me,<br /><em>click yes!</em></h1><p className="subcopy">I have a little birthday surprise<br />waiting just for you.</p>
               <div className="button-row"><button className="pixel-button yes-button" onClick={() => setScreen("code")}>YES!! <span>♥</span></button><button className="pixel-button no-button" style={{ transform: `translate(${noCount % 2 ? -28 : 28}px, ${noCount % 3 ? 10 : -8}px)` }} onMouseEnter={() => setNoCount(noCount + 1)} onClick={() => setNoCount(noCount + 1)}>No 😐</button></div>
               <div className="tiny-hint">{noCount > 0 ? "nice try. the answer is still yes ♡" : "psst... the NO button is shy"}</div>
             </div>
