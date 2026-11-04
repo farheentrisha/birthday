@@ -9,7 +9,7 @@ const cats = {
   cracked: "/hehe%20you%20cracked%20it.png",
   emotional: "/emotional.png",
   menu: "/choose%20menu.png",
-  date: "/date%20a%20jaba",
+  date: "/memory4.jpg",
 };
 
 const tabs = ["Home", "Our Memories", "Birthday Surprise", "Love Letter"];
